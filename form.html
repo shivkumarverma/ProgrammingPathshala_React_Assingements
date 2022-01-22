@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background:url("https://wallpaperaccess.com/full/51370.jpg");
+            background-size:"cover";
+            font-family:sans-serif;
+        }
+        .container{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                width:700px;
+                height:420px;
+                border-radius:5px;
+                border:10px solid rgba(255,255,255,.2);
+                box-shadow:10px 10px 15px rgba(0,0,0,.5);
+
+            
+        
+        }
+        .imgBx{
+
+            width:350px;
+            height:420px;
+            overflow: hidden;
+            float:left;
+
+
+        }
+        .imgBx img{
+            width:100%;
+        }
+        .formBody{
+        float:right;
+        width:350px;
+        height:420px;
+        box-sizing:border-box;
+        padding : 5px 40px;
+        background: rgba(255,255,255,.8);
+
+    }
+   
+    ::placeholder{
+        color:rgba(0,0,0,.5);
+        padding-left: 5px;
+    }
+    
+    .formBody input,select{
+        width:100%;
+        margin-bottom:5px;
+        border:none;
+        border-bottom: 2px solid #262626;
+        background:transparent;
+        outline:none;
+        height:35px;
+        color:#262626;
+        box-sizing: border-box;
+
+
+    }
+    .formBody button{
+        margin-top: 10px;
+        width:100%;
+        border:none;
+        outline:none;
+        height:40px;
+        font-size:15px;
+        padding:5px 20px;
+        background:#ed292a;
+        color:#fff;
+        border-radius: 20px;
+        cursor:pointer;
+    
+
+    }
+        
+    </style>
+    <title>Form</title>
+
+</head>
+<body>
+    <div class="container">
+    <div class="imgBx">
+        <img src="https://picsum.photos/350/420">
+    </div>
+    <div class="formBody">
+      <h3>Register Here</h3>
+      <form class="">
+          <Div class="name">
+          <input type="text" name="" placeholder="First Name">
+          <input type="text" name="" placeholder="Last Name">
+          </Div>
+           <Div class="Epno">
+          <input type="email" name="" placeholder="Email">
+          <input type="number" name="" placeholder="Phone No.">
+          </Div>
+           <Div class="name">
+               <label>Profession</label>
+          <select>
+              <option>Student</option>
+              <option>Working Profession</option>
+          </select>
+          <label>Year of gradution</label>
+          <input type="date" name="" placeholder="">
+          </Div>
+          <Button>Submit</Button>
+      </form>
+      </div>
+   
+    </div>
+    
+    
+</body>
+</html>
