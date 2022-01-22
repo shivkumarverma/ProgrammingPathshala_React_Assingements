@@ -1,4 +1,4 @@
-# PP Assignment Reopsitory for github
+# PP Assignment Reopsitory.
 
 ### The assignment for day 1 is:
 
