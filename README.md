@@ -11,7 +11,7 @@
 
 ### Assignment day 2 :
 
--Go to w3school link in notes and make a page using all the topics we covered today.
+- Go to w3school link in notes and make a page using all the topics we covered today.
 
 ### Assignment day 3:
 
@@ -21,5 +21,6 @@
 
 ### Assignment 4:
 
--Create a form - With - name, email, phone no, Dropdown-student/working professional, year of passing.
--Finish all levels of https://flexboxfroggy.com/
+- Create a form - With - name, email, phone no, Dropdown-student/working professional, year of passing.
+- Finish all levels of https://flexboxfroggy.com/
+ 
